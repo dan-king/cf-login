@@ -7,15 +7,15 @@ This code exercise demonstrates the use of ColdFusion and JavaScript to create s
 
 ## CDN
 
-The 'cdn' directory contains JavaScript helper libraries used the the exercise.
+The 'cdn' directory contains JavaScript helper libraries used in the exercise.
 - jQuery: interact with DOM objects
 - Bootstrap: page layout
 - Fontawesome: favicon and site icons
 - Toastr: popup messages
 
-## Inital Page Setup
+## Initial Page Setup
 
-On inital load the login and password form fields and empty and the "Login" button is disabled.
+On initial load the login and password form fields and empty and the "Login" button is disabled.
 
 Once values are present for both the login and password the "Login" button becomes enabled.
 
@@ -31,7 +31,7 @@ The exercise avails of the [ColdFusion Object-Relational Mapping (ORM)] [1] comm
 
 ## Workflow
 
-When the login button is clicked authentication is performed on the server. If the login and password are correct the login form disappears and a success message title "You are in" appears. A "Logout" button also appears. When the "Logout" buttin is clicked the ColdFusion session is terminated and the login form reappears.
+When the login button is clicked authentication is performed on the server. If the login and password are correct the login form disappears and a success message title "You are in" appears. A "Logout" button also appears. When the "Logout" button is clicked the ColdFusion session is terminated and the login form reappears.
 
 ## No Page Refresh
 
@@ -65,7 +65,7 @@ Passwords and appended with the user's unique salt value and hashed with SHA-216
 
 ## Logout
 
-When the user clickec the "Logout" button the ColdFusion session variables are cleared and the session is reset. The login form reappears.
+When the user clicked the "Logout" button the ColdFusion session variables are cleared and the session is reset. The login form reappears.
 
 
 ## Sample User Credentials
@@ -87,7 +87,7 @@ Front-end tests can be run at the command line in the "test-js" directory with t
 
 Back-end ColdFusion tests are located in the "test-cf" directory are written with the [TinyTest][2] web-based testing tool from [Ben Nadel][3] at [www.bennadel.com][3]
 
-Back-end tests can be run by browsing to the path "test-cf" directory relatiave to the app root, e.g. http://localhost/exercise/tests-cf/index.cfm
+Back-end tests can be run by browsing to the path "test-cf" directory relative to the app root, e.g. http://localhost/exercise/tests-cf/index.cfm
 
 ## Database
 
